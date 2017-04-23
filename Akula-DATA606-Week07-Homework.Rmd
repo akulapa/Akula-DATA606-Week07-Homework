@@ -77,7 +77,7 @@ resy <- oby - round(y100,2)
 
 **_Estimate slope ${\beta}_1$, translate to, for every one-centimeter increase in shoulder girth $x$, the height of the individual $y$ will be increased by `r b1`. Also, for every one-centimeter decrease in shoulder girth $x$, the height of the individual $y$ will be decreased by `r b1`. Whereas intercept ${\beta}_0$ means the height of the individual, with shoulder girth `zero` will be equal to `r b0`. One must be cautious in this interpretation, while there is a real association, we cannot interpret a causal connection between the variables because these data are observational. That is, individual of height `r b0` cannot have shoulder girth as `zero` cm._**
 
-**_(c) $R^2 = `r rsq`, in our case `r rsq*100` percent of variation in data can be explained by linear model.$_**
+**_(c) $R^2 = `r rsq`$, in our case `r rsq*100` percent of variation in data can be explained by linear model._**
 
 **_(d) Shoulder girth $x = 100 cm$, regression line for predicting height is $y = `r b0` + `r b1`x$_**
 
